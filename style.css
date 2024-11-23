@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #212121;
+}
+
+#wrapper {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffeb3b;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+#guessField {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #e64a19;
+}
+
+.resultParas {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.resultParas p {
+    margin: 5px 0;
+}
+
+.lowOrHigh {
+    font-weight: bold;
+    color: #ffeb3b;
+}
